@@ -1,0 +1,3 @@
+- repo: 'SirVer/ultisnips'
+- repo: 'mlaursen/vim-react-snippets'
+- repo: 'chemzqm/wxapp.vim'
