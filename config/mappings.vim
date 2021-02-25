@@ -227,6 +227,7 @@ nmap <Leader>tw :execute('setlocal wrap! breakindent! colorcolumn=' .
 	\ (&colorcolumn == '' ? &textwidth : ''))<CR>
 
 " Tabs
+" 使用 gt gT 切换，下面的配置貌似没有生效
 nnoremap <silent> g1 :<C-u>tabfirst<CR>
 nnoremap <silent> g5 :<C-u>tabprevious<CR>
 nnoremap <silent> g9 :<C-u>tablast<CR>
