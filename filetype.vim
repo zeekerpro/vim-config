@@ -30,6 +30,9 @@ augroup filetypedetect "{{{
 	autocmd BufNewFile,BufRead Tmuxfile,tmux/config setfiletype tmux
 	autocmd BufNewFile,BufRead Brewfile             setfiletype ruby
 
+	autocmd BufNewFile,BufRead .wxss								setfiletype css
+	autocmd BufNewFile,BufRead .wxml								setfiletype html
+
 augroup END
 " }}}
 

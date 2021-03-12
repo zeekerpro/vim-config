@@ -135,7 +135,7 @@ augroup END "}}}
 highlight! link pythonSpaceError  NONE
 highlight! link pythonIndentError NONE
 " highlight! link mkdLineBreak      NONE
-highlight! link ExtraWhitespace  SpellBad
+highlight! link ExtraWhitespace  NONE
 highlight! WarningMsg ctermfg=100 guifg=#CCC566
 " }}}
 

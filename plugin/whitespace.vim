@@ -61,7 +61,7 @@ function! s:ToggleWhitespace(mode)
 			call matchdelete(w:whitespace_match_id)
 			call matchadd('ExtraWhitespace', l:pattern, 10, w:whitespace_match_id)
 		else
-			highlight! link ExtraWhitespace SpellBad
+			highlight! link ExtraWhitespace NONE
 			let w:whitespace_match_id = matchadd('ExtraWhitespace', l:pattern)
 		endif
 	endif

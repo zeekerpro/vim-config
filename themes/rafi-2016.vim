@@ -134,7 +134,7 @@ highlight! link mkdLineBreak      NONE
 highlight! link pythonSpaceError  NONE
 highlight! link pythonIndentError NONE
 highlight! link WarningMsg  Comment
-highlight! link ExtraWhitespace  SpellBad
+highlight! link ExtraWhitespace  NONE
 " }}}
 
 " Plugin: VimFiler icons {{{

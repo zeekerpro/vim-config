@@ -118,7 +118,7 @@ augroup END "}}}
 " Highlights: General GUI {{{
 " ---------------------------------------------------------
 highlight! Error  term=NONE cterm=NONE
-highlight! link ExtraWhitespace  SpellBad
+highlight! link ExtraWhitespace  NONE
 highlight! link WarningMsg  Comment
 " }}}
 
