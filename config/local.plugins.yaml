@@ -1,3 +1,17 @@
-- repo: 'SirVer/ultisnips'
-- repo: 'mlaursen/vim-react-snippets'
-- repo: 'chemzqm/wxapp.vim'
+- { repo: nathanaelkane/vim-indent-guides, if: 0 }
+
+- repo: SirVer/ultisnips
+
+
+- repo: mlaursen/vim-react-snippets
+  on_event: FileType
+
+- repo: chemzqm/wxapp.vim
+  on_event: FileType
+
+- repo: Yggdroot/indentLine
+  on_event: FileType
+  hook_source: |-
+    let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+    let g:indentLine_char = 'c'
+
