@@ -7,3 +7,5 @@ highlight! link ExtraWhitespace  NONE
 
 " 主题设置
 colorscheme materialbox
+
+set synmaxcol=2048
