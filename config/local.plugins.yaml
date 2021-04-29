@@ -2,7 +2,6 @@
 
 - repo: SirVer/ultisnips
 
-
 - repo: mlaursen/vim-react-snippets
   on_event: FileType
 
@@ -14,4 +13,7 @@
   hook_source: |-
     let g:indentLine_char_list = ['|', '¦', '┆', '┊']
     let g:indentLine_char = 'c'
+
+- repo: tpope/vim-rails
+  on_event: FileType
 
